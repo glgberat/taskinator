@@ -46,8 +46,7 @@ var isEdit = formEl.hasAttribute("data-task-id");
     type: taskTypeInput,
     status: "to do"
   }
-  console.log(taskDataObj);
-  console.log(taskDataObj.status);
+  
 
   // send it as an argument to createTaskEl
   // has data attribute, so get task id and call function to complete edit process
